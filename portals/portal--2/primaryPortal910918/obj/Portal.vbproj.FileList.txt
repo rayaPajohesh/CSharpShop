@@ -1,0 +1,10 @@
+bin\Portal.dll
+bin\Portal.pdb
+bin\Portal.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Portal.Global.asax
+obj\Debug\Portal.Resources.resources
+obj\Debug\Portal.vbproj.GenerateResource.Cache
+obj\Debug\Portal.dll
+obj\Debug\Portal.xml
+obj\Debug\Portal.pdb

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="https://localhost/axis/SpringWS" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="https://localhost/axis/SpringWS" targetNamespace="https://localhost/axis/SpringWS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="paymentGatewayVoidRequestRequest">
+    <wsdl:part name="RRN" type="soapenc:string" />
+    <wsdl:part name="reservationNum" type="soapenc:string" />
+    <wsdl:part name="userName" type="soapenc:string" />
+    <wsdl:part name="password" type="soapenc:string" />
+    <wsdl:part name="url" type="soapenc:string" />
+    <wsdl:part name="amount" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="paymentGatewayVerificationRequestResponse">
+    <wsdl:part name="paymentGatewayVerificationRequestReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="paymentGatewayVoidRequestResponse">
+    <wsdl:part name="paymentGatewayVoidRequestReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="paymentGatewayVerificationRequestRequest">
+    <wsdl:part name="reservationNum" type="soapenc:string" />
+    <wsdl:part name="userName" type="soapenc:string" />
+    <wsdl:part name="password" type="soapenc:string" />
+    <wsdl:part name="url" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:portType name="SpringWSEndPoint">
+    <wsdl:operation name="paymentGatewayVoidRequest" parameterOrder="RRN reservationNum userName password url amount">
+      <wsdl:input name="paymentGatewayVoidRequestRequest" message="impl:paymentGatewayVoidRequestRequest" />
+      <wsdl:output name="paymentGatewayVoidRequestResponse" message="impl:paymentGatewayVoidRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="paymentGatewayVerificationRequest" parameterOrder="reservationNum userName password url">
+      <wsdl:input name="paymentGatewayVerificationRequestRequest" message="impl:paymentGatewayVerificationRequestRequest" />
+      <wsdl:output name="paymentGatewayVerificationRequestResponse" message="impl:paymentGatewayVerificationRequestResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SpringWSSoapBinding" type="impl:SpringWSEndPoint">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="paymentGatewayVoidRequest">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="paymentGatewayVoidRequestRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservice.ambit.avanza.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="paymentGatewayVoidRequestResponse">
+        <wsdlsoap:body use="encoded" namespace="https://localhost/axis/SpringWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="paymentGatewayVerificationRequest">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="paymentGatewayVerificationRequestRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservice.ambit.avanza.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="paymentGatewayVerificationRequestResponse">
+        <wsdlsoap:body use="encoded" namespace="https://localhost/axis/SpringWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SpringWSEndPointService">
+    <wsdl:port name="SpringWS" binding="impl:SpringWSSoapBinding">
+      <wsdlsoap:address location="https://localhost/axis/SpringWS" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

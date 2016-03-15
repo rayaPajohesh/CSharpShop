@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{682C789B-4986-4EE9-AAC2-CCA3A5FE89F7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Portal</RootNamespace>
+    <AssemblyName>Portal</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Portal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Portal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\Dairy\cheesse_cream_02.jpg" />
+    <Content Include="Image\Dairy\doogh_4litri02.jpg" />
+    <Content Include="Image\Dairy\gbasrej31.JPG" />
+    <Content Include="Image\Dairy\gbastanichoobi2006-2.jpg" />
+    <Content Include="Image\Dairy\kashk02.jpg" />
+    <Content Include="Image\Dairy\sarmayehLogo.jpg" />
+    <Content Include="Image\Dairy\small_butter.jpg" />
+    <Content Include="Image\Dairy\small_butter2.jpg" />
+    <Content Include="Image\Dairy\small_chcolat_milk_3.jpg" />
+    <Content Include="Image\Dairy\Small_date_milk.jpg" />
+    <Content Include="Image\Dairy\yough42_1kg02.jpg" />
+    <Content Include="Image\Fruitage\golobi.jpg" />
+    <Content Include="Image\Fruitage\kheiyar.jpg" />
+    <Content Include="Image\Fruitage\sib.jpg" />
+    <Content Include="Image\Fruitage\آلبالو.jpg" />
+    <Content Include="Image\Fruitage\انگور.JPG" />
+    <Content Include="Image\Fruitage\موز.jpg" />
+    <Content Include="Image\Fruitage\هلو.jpg" />
+    <Content Include="Image\Pooshak\2cmte2r.JPG" />
+    <Content Include="Image\Pooshak\2itrho8.JPG" />
+    <Content Include="Image\Pooshak\Clothes.gif" />
+    <Content Include="Image\Pooshak\wqzi4o.JPG" />
+    <Content Include="Image\sarmayehLogo.jpg" />
+    <Content Include="Image\tehrankharid.gif" />
+    <Content Include="PortalHome.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasePage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CertificateValidation.vb" />
+    <Compile Include="Dairy.aspx.designer.vb">
+      <DependentUpon>Dairy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dairy.aspx.vb">
+      <DependentUpon>Dairy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Foods.aspx.designer.vb">
+      <DependentUpon>Foods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Foods.aspx.vb">
+      <SubType>ASPXCodebehind</SubType>
+      <DependentUpon>Foods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fruitage.aspx.designer.vb">
+      <DependentUpon>Fruitage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fruitage.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Fruitage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="books.aspx.designer.vb">
+      <DependentUpon>books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="books.aspx.vb">
+      <DependentUpon>books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="homeDevice.aspx.designer.vb">
+      <DependentUpon>homeDevice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeDevice.aspx.vb">
+      <DependentUpon>homeDevice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MessageForm.aspx.designer.vb">
+      <DependentUpon>MessageForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessageForm.aspx.vb">
+      <DependentUpon>MessageForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modPortal.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyWebClient.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.vb">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.vb">
+      <SubType>ASPXCodebehind</SubType>
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pooshak.aspx.designer.vb">
+      <DependentUpon>Pooshak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pooshak.aspx.vb">
+      <SubType>ASPXCodebehind</SubType>
+      <DependentUpon>Pooshak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortalHome.aspx.designer.vb">
+      <DependentUpon>PortalHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortalHome.aspx.vb">
+      <DependentUpon>PortalHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemotePost.vb" />
+    <Compile Include="SessionExpired.aspx.designer.vb">
+      <DependentUpon>SessionExpired.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionExpired.aspx.vb">
+      <DependentUpon>SessionExpired.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopHome.aspx.designer.vb">
+      <DependentUpon>ShopHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopHome.aspx.vb">
+      <SubType>ASPXCodebehind</SubType>
+      <DependentUpon>ShopHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopMaster.Master.designer.vb">
+      <DependentUpon>ShopMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ShopMaster.Master.vb">
+      <DependentUpon>ShopMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopPurchase.aspx.designer.vb">
+      <DependentUpon>ShopPurchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopPurchase.aspx.vb">
+      <DependentUpon>ShopPurchase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testpost.aspx.designer.vb">
+      <DependentUpon>testpost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testpost.aspx.vb">
+      <DependentUpon>testpost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web References\localhost\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\SpringWS.wsdl" />
+    <Content Include="Dairy.aspx" />
+    <Content Include="Default.css" />
+    <Content Include="Foods.aspx" />
+    <Content Include="Fruitage.aspx" />
+    <Content Include="books.aspx" />
+    <EmbeddedResource Include="Global.asax" />
+    <Content Include="homeDevice.aspx" />
+    <Content Include="Image\books\1_resize.jpg" />
+    <Content Include="Image\books\2001457250413752906_rs_resize.jpg" />
+    <Content Include="Image\books\27xja11_resize.jpg" />
+    <Content Include="Image\books\2_resize.jpg" />
+    <Content Include="Image\books\86q5a52_resize.jpg" />
+    <Content Include="Image\books\Hekayat_resize.jpg" />
+    <Content Include="Image\books\img003_resize.jpg" />
+    <Content Include="Image\books\MOSEM_resize.jpg" />
+    <Content Include="Image\books\product_1_20080125112922_resize.jpg" />
+    <Content Include="Image\Foods\04766_BauerwurstLarge_resize.jpg" />
+    <Content Include="Image\Foods\180-b_resize.jpg" />
+    <Content Include="Image\Foods\20671_resize.jpg" />
+    <Content Include="Image\Foods\711f9e223d6add0620e3f8b1f14af66d_resize.jpg" />
+    <Content Include="Image\Foods\Tumb_resize.jpg" />
+    <Content Include="Image\Foods\تخم مرغ_resize.JPG" />
+    <Content Include="Image\Foods\مرغ.jpg" />
+    <Content Include="Image\Foods\گوشت.JPG" />
+    <Content Include="Image\homeDevice\230190023_resize.jpg" />
+    <Content Include="Image\homeDevice\dishwasher1_resize.jpg" />
+    <Content Include="Image\homeDevice\dishwasher2_resize.jpg" />
+    <Content Include="Image\homeDevice\dishwasher_resize.jpg" />
+    <Content Include="Image\homeDevice\Microwave_Oven1_resize.jpg" />
+    <Content Include="Image\homeDevice\sanyo_microwave2_resize.jpg" />
+    <Content Include="Image\homeDevice\tefal-fv9330_resize.jpg" />
+    <Content Include="Image\homeDevice\tefal_toast_resize.jpg" />
+    <Content Include="Image\homeDevice\washing machine1_resize.jpg" />
+    <Content Include="Image\homeDevice\washing machine2_resize.jpg" />
+    <Content Include="Image\homeDevice\washing machine3_resize.jpg" />
+    <Content Include="Image\left-adds.jpg" />
+    <Content Include="Image\Menu\ghobo0z.JPG" />
+    <Content Include="Image\Menu\kharide interneT.JPG" />
+    <Content Include="Image\Menu\mojo0DEhesab.JPG" />
+    <Content Include="Image\Menu\mojo0Dhesab.jpg" />
+    <Content Include="Image\Menu\Nteghal.JPG" />
+    <Content Include="Image\PortalHome\new-2.jpg" />
+    <Content Include="Image\Pooshak\15149.jpg" />
+    <Content Include="Image\Pooshak\5197-AD8502.jpg" />
+    <Content Include="Image\Pooshak\6yza0p.jpg" />
+    <Content Include="Image\Pooshak\Ladies_bag.jpg" />
+    <Content Include="Image\Pooshak\pooshak2.JPG" />
+    <Content Include="Image\Pooshak\TBD001EU_cases_main_b.jpg" />
+    <Content Include="Image\PortalHome\AriaSafarAsia.JPG" />
+    <Content Include="Image\PortalHome\aseman2_resize.jpg" />
+    <Content Include="Image\PortalHome\caspian.jpg" />
+    <Content Include="Image\PortalHome\daryush kish.jpg" />
+    <Content Include="Image\PortalHome\forush2.jpg" />
+    <Content Include="Image\PortalHome\ghasrHotol.jpg" />
+    <Content Include="Image\PortalHome\hamrahaval1.jpg" />
+    <Content Include="Image\PortalHome\hamsafar.JPG" />
+    <Content Include="Image\PortalHome\hotelGhasr.jpg" />
+    <Content Include="Image\PortalHome\hotelHayte.jpg" />
+    <Content Include="Image\PortalHome\iranair-logo2_resize.jpg" />
+    <Content Include="Image\PortalHome\irankhodro_resize.jpg" />
+    <Content Include="Image\PortalHome\mahanLogo.JPG" />
+    <Content Include="Image\PortalHome\mofidbourse.gif" />
+    <Content Include="Image\PortalHome\pars khodro_resize.jpg" />
+    <Content Include="Image\PortalHome\raja.jpg" />
+    <Content Include="Image\PortalHome\raja2.jpg" />
+    <Content Include="Image\PortalHome\raja_RTL.gif" />
+    <Content Include="Image\PortalHome\saham.jpg" />
+    <Content Include="Image\PortalHome\saipa_resize.jpg" />
+    <Content Include="Image\PortalHome\zamiad1_resize.jpg" />
+    <Content Include="Image\PortalHome\zamiad2_resize.jpg" />
+    <Content Include="Image\purchase portal.jpg" />
+    <Content Include="Image\shopping_cart1.PNG" />
+    <Content Include="Image\tehranKala.jpg" />
+    <Content Include="Image\VoteImage.jpg" />
+    <Content Include="MessageForm.aspx" />
+    <Content Include="Payment.aspx" />
+    <Content Include="Pooshak.aspx" />
+    <Content Include="SessionExpired.aspx" />
+    <Content Include="ShopHome.aspx" />
+    <Content Include="ShopMaster.Master" />
+    <Content Include="ShopPurchase.aspx" />
+    <Content Include="testpost.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://pgtest.sarmayebank.com/axis/SpringWS%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\localhost\</RelPath>
+      <UpdateFromURL>https://pgtest.sarmayebank.com/axis/SpringWS%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Portal_localhost_SpringWSEndPointService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>3618</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

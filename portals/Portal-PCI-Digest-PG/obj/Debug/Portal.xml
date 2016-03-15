@@ -1,0 +1,1354 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Portal
+</name>
+</assembly>
+<members>
+<member name="M:Portal.WebReference.SpringWSEndPointService.#ctor">
+	<remarks/>
+</member><member name="E:Portal.WebReference.SpringWSEndPointService.paymentGatewayVoidRequestCompleted">
+	<remarks/>
+</member><member name="E:Portal.WebReference.SpringWSEndPointService.paymentGatewayVerificationRequestCompleted">
+	<remarks/>
+</member><member name="E:Portal.WebReference.SpringWSEndPointService.paymentGatewayReconciliationRequestCompleted">
+	<remarks/>
+</member><member name="E:Portal.WebReference.SpringWSEndPointService.paymentGatewayMerchantAuthenticationCompleted">
+	<remarks/>
+</member><member name="E:Portal.WebReference.SpringWSEndPointService.paymentGatewayLinksAuthenticationCompleted">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayVoidRequest(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayVoidRequestAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayVoidRequestAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayVerificationRequest(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayVerificationRequestAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayVerificationRequestAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayReconciliationRequest(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayReconciliationRequestAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayReconciliationRequestAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayMerchantAuthentication(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayMerchantAuthenticationAsync(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayMerchantAuthenticationAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayLinksAuthentication(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayLinksAuthenticationAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.paymentGatewayLinksAuthenticationAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Portal.WebReference.SpringWSEndPointService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:Portal.WebReference.SpringWSEndPointService">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayVoidRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Portal.WebReference.paymentGatewayVoidRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayVoidRequestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayVerificationRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Portal.WebReference.paymentGatewayVerificationRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayVerificationRequestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayReconciliationRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Portal.WebReference.paymentGatewayReconciliationRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayReconciliationRequestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayMerchantAuthenticationCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Portal.WebReference.paymentGatewayMerchantAuthenticationCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayMerchantAuthenticationCompletedEventArgs">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayLinksAuthenticationCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Portal.WebReference.paymentGatewayLinksAuthenticationCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Portal.WebReference.paymentGatewayLinksAuthenticationCompletedEventArgs">
+	<remarks/>
+</member><member name="F:Portal.Fruitage.ImageButton16">
+	<summary>
+ImageButton16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.ImageButton17">
+	<summary>
+ImageButton17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.ImageButton18">
+	<summary>
+ImageButton18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.ImageButton11">
+	<summary>
+ImageButton11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.ImageButton12">
+	<summary>
+ImageButton12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.ImageButton13">
+	<summary>
+ImageButton13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.ImageButton14">
+	<summary>
+ImageButton14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Fruitage.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.Fruitage">
+	<summary>
+Fruitage class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:Portal.testpost.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.testpost.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.testpost.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.testpost.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.testpost.letsplay">
+	<summary>
+letsplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.testpost.Submit1">
+	<summary>
+Submit1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.testpost">
+	<summary>
+testpost class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="T:Portal.SessionExpired">
+	<summary>
+SessionExpired class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:Portal.homeDevice.ImageButton52">
+	<summary>
+ImageButton52 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.Labe31">
+	<summary>
+Labe31 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.ImageButton38">
+	<summary>
+ImageButton38 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.ImageButton32">
+	<summary>
+ImageButton32 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.ImageButton33">
+	<summary>
+ImageButton33 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.ImageButton34">
+	<summary>
+ImageButton34 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.ImageButton35">
+	<summary>
+ImageButton35 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.homeDevice.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.homeDevice">
+	<summary>
+homeDevice class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:Portal.MessageForm.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.lblRN">
+	<summary>
+lblRN control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.lblHelp">
+	<summary>
+lblHelp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.MessageForm.TextBox4">
+	<summary>
+TextBox4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton1">
+	<summary>
+PooshakImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl1">
+	<summary>
+lbl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton2">
+	<summary>
+PooshakImageButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl2">
+	<summary>
+lbl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton3">
+	<summary>
+PooshakImageButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl3">
+	<summary>
+lbl3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton4">
+	<summary>
+PooshakImageButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl4">
+	<summary>
+lbl4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton5">
+	<summary>
+PooshakImageButton5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl5">
+	<summary>
+lbl5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton6">
+	<summary>
+PooshakImageButton6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl6">
+	<summary>
+lbl6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton7">
+	<summary>
+PooshakImageButton7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl7">
+	<summary>
+lbl7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton8">
+	<summary>
+PooshakImageButton8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl8">
+	<summary>
+lbl8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.PooshakImageButton9">
+	<summary>
+PooshakImageButton9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Pooshak.lbl9">
+	<summary>
+lbl9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.Pooshak">
+	<summary>
+Pooshak class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:Portal.ShopMaster.PageHead">
+	<summary>
+PageHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopMaster.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopMaster.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopMaster.Menu1">
+	<summary>
+Menu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopMaster.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopMaster.Image2">
+	<summary>
+Image2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopMaster.Image4">
+	<summary>
+Image4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopMaster.Image3">
+	<summary>
+Image3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.ImageButton21">
+	<summary>
+ImageButton21 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.ImageButton23">
+	<summary>
+ImageButton23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.ImageButton40">
+	<summary>
+ImageButton40 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.ImageButton25">
+	<summary>
+ImageButton25 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.ImageButton26">
+	<summary>
+ImageButton26 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.ImageButton27">
+	<summary>
+ImageButton27 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.ImageButton60">
+	<summary>
+ImageButton60 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.ImageButton24">
+	<summary>
+ImageButton24 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.books.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.books">
+	<summary>
+books class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:Portal.PortalHome.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.PortalHome.Menu1">
+	<summary>
+Menu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton2">
+	<summary>
+ImageButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton3">
+	<summary>
+ImageButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton4">
+	<summary>
+ImageButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.lbl4">
+	<summary>
+lbl4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton5">
+	<summary>
+ImageButton5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.lbl9">
+	<summary>
+lbl9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton6">
+	<summary>
+ImageButton6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.lbl5">
+	<summary>
+lbl5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton7">
+	<summary>
+ImageButton7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton8">
+	<summary>
+ImageButton8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.ImageButton9">
+	<summary>
+ImageButton9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopHome.lbl1">
+	<summary>
+lbl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.ShopHome">
+	<summary>
+ShopHome class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:Portal.Foods.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.lbl1">
+	<summary>
+lbl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.ImageButton2">
+	<summary>
+ImageButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.lbl2">
+	<summary>
+lbl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.ImageButton3">
+	<summary>
+ImageButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.Lbl3">
+	<summary>
+Lbl3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.ImageButton7">
+	<summary>
+ImageButton7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.Lbl7">
+	<summary>
+Lbl7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.ImageButton5">
+	<summary>
+ImageButton5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.Lbl5">
+	<summary>
+Lbl5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.ImageButton9">
+	<summary>
+ImageButton9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.Lbl9">
+	<summary>
+Lbl9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.ImageButton4">
+	<summary>
+ImageButton4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.Lbl4">
+	<summary>
+Lbl4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.ImageButton8">
+	<summary>
+ImageButton8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Foods.Lbl8">
+	<summary>
+Lbl8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.Foods">
+	<summary>
+Foods class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="P:Portal.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Portal.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Portal.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Portal.ShopPurchase.btAdd">
+	<summary>
+btAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.grdKala">
+	<summary>
+grdKala control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.txtKalaCode">
+	<summary>
+txtKalaCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.txtKalaName">
+	<summary>
+txtKalaName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.txtNoKala">
+	<summary>
+txtNoKala control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.txtKalaPrice">
+	<summary>
+txtKalaPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.lblTotalPrice">
+	<summary>
+lblTotalPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.Reconciliation">
+	<summary>
+Reconciliation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.ShopPurchase.LinkButton1">
+	<summary>
+LinkButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.ShopPurchase">
+	<summary>
+ShopPurchase class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton8">
+	<summary>
+ImageButton8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Labe9">
+	<summary>
+Labe9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton9">
+	<summary>
+ImageButton9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton20">
+	<summary>
+ImageButton20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton13">
+	<summary>
+ImageButton13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton14">
+	<summary>
+ImageButton14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton15">
+	<summary>
+ImageButton15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton16">
+	<summary>
+ImageButton16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Lbl4">
+	<summary>
+Lbl4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton17">
+	<summary>
+ImageButton17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Lbl8">
+	<summary>
+Lbl8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.ImageButton18">
+	<summary>
+ImageButton18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Portal.Dairy.Label13">
+	<summary>
+Label13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:Portal.Dairy">
+	<summary>
+Dairy class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member>
+</members>
+</doc>

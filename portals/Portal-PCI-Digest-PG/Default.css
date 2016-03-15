@@ -1,0 +1,641 @@
+﻿body 
+{
+    direction:rtl 
+}
+
+.ShopMasterbody
+{
+position: static
+}
+
+.tableHeader
+{
+  position: absolute;
+  top: 0px; height:0px;
+  right: 0px;
+  width: 656px;
+
+}
+.PortaLtableHeader
+{
+  position: absolute;
+  top: 0px; height:0px;
+  right: 0px;
+  width: 500;
+
+}
+
+.trHeader
+{
+  font-weight: normal;
+  font-size: small;
+  font-family: Tahoma;
+  color: #660066;
+  background-color: #ffeeff;
+
+}
+.PortaLtrHeader
+{
+  font-weight: normal;
+  font-size: small;
+  font-family: Tahoma;
+  color: #660066;
+  background-color: #cfe0f4;
+
+
+}
+.PortalHomeBody
+{
+  position: static;
+
+}
+
+
+
+.tdHeader
+{
+    height: 26px;
+}
+.portalTdHeader
+{
+    width: 85px;
+}
+
+
+
+.aHeader
+{
+  font-weight: normal;
+  font-size: small;
+  font-family: Tahoma;
+  color: #660066;
+  background-color: #ffeeff;
+}
+.PortaLaHeader
+{
+  font-weight: normal;
+  font-size: small;
+  font-family: Tahoma;
+  color: #003399;
+  background-color: #cfe0f4;
+}
+
+.tableLogo
+{
+  position: absolute;
+   right: 0px;
+   left: 0px;
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   margin: 0px;
+   padding-top:0px;
+   height: 64px;
+   top: 24px;
+   width: 102%; 
+  
+}
+.PortaltableLogo
+{
+  position: absolute;
+   right:-2px;
+   left: 0px;
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   margin: 0px;
+   padding-top:0px;
+   height: 158px;
+   top: 28px;
+   width: 102%;
+
+  
+}
+
+.PortaltableLogoTR
+{height: 208px;
+}
+.PortaltableLogoImage
+  {height: 208px; 
+   right: 0px;
+   top:0px;
+   left: 0px;
+   width: 990px;
+  }    
+
+.tdElastic
+{
+  
+   background-color: #e7ffff;
+   width: 862px;
+   text-align:center;
+   height: 81px
+   
+}
+
+.h1Elastic
+{
+  text-align: center;
+  color: #0066cc;
+  text-decoration: none;
+  font-family: Lotus;
+  font-weight: bolder; 
+  font-size: x-large;
+
+}
+
+.tdImage1
+{
+ 
+ background-color: #e7ffff;
+ width: 68px;
+ height: 81px;
+}
+ 
+.tdMarquee
+{
+   font-weight: normal;
+   font-size: small;
+   color: Red;
+   font-family:Tahoma;
+   background-color: #baffcc;
+   border-right: #009966 thin dashed;
+   border-top: #009966 thin dashed;
+   border-left: #009966 thin dashed;
+   border-bottom: #009966 thin dashed;
+   height: 19px;
+
+}
+
+.tableDetail
+{
+  position: absolute;
+  right: 0px;width: 102%;
+  height: 200px;
+  color: #00ccff; 
+  top: 152px;  
+}
+.PortaLtableDetail
+{
+  position: absolute;
+  right: 0px;width: 102%;
+  height: 200px;
+  top: 219px;  
+   
+    }
+
+
+.tdMenu
+{
+  
+  width: 117px;
+  height: 301px; 
+  background :#C0FFC0;
+
+}
+
+.PortaltdMenu
+{
+  
+  width: 145px;
+  height: 301px; 
+  
+
+}
+
+ 
+.ShopMasterMenu
+  {
+    left: 828px;
+    direction: rtl;
+    text-align: right; 
+    font-weight: bolder; 
+    font-size: medium;
+    font-family: Zar;
+    border-top-width: thin;
+    border-left-width: thin; 
+    border-left-color: #339966;
+    border-bottom-width: thin; 
+    border-bottom-color: #339966; 
+    border-top-color: #339966;
+    border-right-width: thin; 
+    border-right-color: #339966;
+    top:0px;
+    }
+
+
+.tdContentPlaceHolder
+{
+width: 608px;
+height: 301px;
+background-color: #cdffeb;
+}  
+ 
+ 
+ .tdCommon
+{
+  height: 301px;
+  width: 114px;
+  vertical-align:text-top;
+  width:212px;
+}
+  
+ .tdVote
+{
+  top:0px
+} 
+
+ 
+ .Vote
+{
+ font-size: small;
+ font-family: Tahoma;
+ color: #006699;
+} 
+
+
+.BTNVote
+{
+font-size: smaller;
+font-family: Tahoma;
+width:50px;
+color: #ffffff;
+background-color: #3399cc;
+} 
+
+ 
+.tdRadio
+{
+font-size: small
+} 
+
+ 
+.tdleft-adds
+{
+top:0px
+} 
+
+.tdLicense
+{
+font-weight: bold; 
+font-size: small;
+color: blue; 
+font-family: Tahoma; 
+background-color: #d0ffba; 
+height: 23px;
+} 
+
+.PortaLtdLicense
+
+{
+font-weight: normal; 
+font-size: small;
+color: #003399; 
+font-family: Tahoma; 
+background-color: #cfe0f4; 
+height: 23px;
+} 
+
+#ShopHome
+
+ .tblCommon
+{
+ height: 328px;
+ background-color: #cdffeb;
+ width: 100%;
+} 
+ 
+ 
+.buttonStyle1
+{
+ font-weight: bold; 
+ font-size: medium; 
+ border-left-color: #009999; 
+ border-bottom-color: #009999; 
+ color: #009999; 
+ border-top-style: inset; 
+ border-top-color: #009999; 
+ font-family: Zar; 
+ border-right-style: inset; 
+ border-left-style: inset; 
+ background-color: #99cccc; 
+ border-right-color: #009999; 
+ border-bottom-style: inset;
+}
+
+.labelStyle1
+{
+   font-size: medium;
+   font-family: Zar; 
+   font-weight: bold; 
+   color: #006699;
+}
+
+
+.labelStyle2{
+ text-align: center; 
+ color: #006699; 
+ background-color: #FFE0C0; 
+ font-weight: bold;
+ font-family: Lotus;
+ font-size:large;
+ border-color: White;
+} 
+ 
+.labelStyle3
+{
+ font-size: small; 
+ font-family: Tahoma; 
+ text-align: center; 
+ color: #009999;    
+} 
+
+.labelStyle4
+{
+ font-weight: normal; 
+ font-size: small; 
+ color: #006666; 
+ font-family: Tahoma;   
+ }
+
+.textStyle1
+{
+ font-size: medium; 
+ font-family: Lotus; 
+ font-weight: bold; 
+ background-color: #FFFFC0;    
+}
+
+.textStyle2
+{
+ font-size: small; 
+ color: #006666;
+ font-family: Tahoma; 
+ text-align: right; 
+ background-color: #93eecc; 
+}
+
+.gridStyle1
+{
+ font-size: small; 
+ font-family: Tahoma; 
+ font-weight: normal; 
+ border-top-style: groove; 
+ border-right-style: groove; 
+ border-left-style: groove; 
+ border-bottom-style: groove; 
+ background-color: #a7ffe0; 
+ color: #006699; 
+ }
+ 
+ .tableStyle1
+ {
+  border-left-color: #65ccbe; 
+  border-bottom-color: #65ccbe; 
+  border-top-style: solid; 
+  border-top-color: #65ccbe; 
+  border-right-style: solid; 
+  border-left-style: solid; 
+  background-color: #93eecc; 
+  border-right-color: #65ccbe; 
+  border-bottom-style: solid; 
+ }
+ 
+ .PortalHomeTd1
+ {
+ width: 232px; 
+ height: 20px;
+ }
+
+.PortalHomeCaspian
+{
+width: 90px;
+height: 65px;  
+    
+}
+
+ .PortalHomeTd2
+ {
+width: 217px; 
+height: 20px;
+ }
+ .PortalHomeIranair
+ {
+width: 102px; 
+height: 87px; 
+ }
+
+ 
+ .PortalHomeTd3
+ {
+ width: 315px;
+ height: 20px;
+
+ }
+.PortalHomeMofidbourse
+ {
+ width: 88px;
+ height: 75px;
+
+ }
+
+.PortalHomeTd4
+ {
+ width: 337px; 
+ height:  20px;
+ }
+ .PortalHomeSaham
+ {
+ width: 94px;
+ height: 85px;
+
+ }
+
+ 
+ 
+ .PortalHomeTd5
+ {
+ width: 189px; 
+ height: 20px;
+ }
+.PortalHomeMahanLogo
+ {
+ width: 107px; 
+ height: 63px;
+ }
+
+ 
+ .PortalHomeTd6
+ {
+ width: 232px; 
+ height: 13px;
+ }
+  .PortalHomeHamrahaval1
+ {
+ width: 65px; 
+ height: 62px;
+ }
+
+ .PortalHomeTd7
+ {
+ width: 217px; 
+ height: 13px;
+ }
+ .PortalHomeRaja_RTL
+ {
+ width: 107px; 
+ height: 68px;
+ }
+
+ .PortalHomeTd8
+ {
+ width: 315px; 
+ height: 13px;
+ }
+ .PortalHomeIrankhodro_resize
+ {
+ width: 88px; 
+ height: 90px;
+ }
+
+ .PortalHomeTd9
+ {
+ width: 337px; 
+ height: 13px;
+ }
+ 
+  .PortalHomeNew-2
+ {
+ width: 115px; 
+ height: 99px;
+ }
+ 
+ .PortalHomeTd10
+ {
+ width: 189px; 
+ height: 13px;
+ }
+ .PortalHomeAseman2_resize
+ {
+ width: 91px; 
+ height: 93px;
+ }
+
+ .PortalHomeTd11
+ {
+ width: 232px; 
+ height: 10px;
+ }
+ .PortalHomeZamiad1
+ {
+ width: 75px; 
+ height: 80px;
+ }
+ .PortalHomeTd12
+ {
+ width: 217px; 
+ height: 10px;
+ }
+ .PortalHomeHamsafar
+ {
+ width: 96px; 
+ height: 88px;
+ }
+ .PortalHomeTd13
+ {
+ width: 315px; 
+ height: 10px;
+ }
+ .PortalHomeAriaSafarAsia
+ {
+ width: 112px; 
+ height: 96px;
+ }
+ .PortalHomeTd14
+ {
+ width: 337px; 
+ height: 10px;
+ }
+ .PortalHomeGhasrHotol
+ {
+width: 110px; 
+height: 103px; 
+left: -8px;
+top: 0px;
+
+ }
+ .PortalHomeTd15
+ {
+ width: 189px; 
+ height: 10px;
+ }
+ .PortalHomeSaipa
+ {
+ width: 95px; 
+ height: 88px;
+ }
+
+ .PortalHomeTd16
+ {
+ width: 232px; 
+ height: 14px;
+ }
+ .PortalHomeForush2
+ {
+ width: 100px; 
+ height: 93px;
+ }
+ .PortalHomeTd17
+ {
+ width: 217px; 
+ height:14px;
+ }
+ .PortalHomeHotelGhasr
+ {
+ width: 102px; 
+ height: 88px;
+ }
+ .PortalHomeTd18
+ {
+ width: 315px; 
+ height: 14px;
+ }
+ .PortalHomeHotelHayte
+ {
+ width: 102px; 
+ height: 91px;
+ }
+ .PortalHomeTd19
+ {
+ width: 337px; 
+ height: 14px;
+ }
+ .PortalHomeDaryush
+ {
+ width: 102px; 
+ height: 87px;
+ }
+ .PortalHomeTd20
+ {
+ width: 337px; 
+ height: 14px;
+ }
+ .PortalHomeParskhodro
+ {
+ width: 100px; 
+ height: 84px;
+ left:5px;
+ }
+ .PortalHomeTable
+ {
+ height: 381px;
+ }
+  .tdSessionExpired 
+ {
+	
+ font-weight : normal; 
+ font-size: small; 
+ color: red; 
+ font-family: Tahoma; 	
+	
+}
